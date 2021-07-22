@@ -28,7 +28,7 @@ is recommended as there are database schema changes in 6.2.0 release.
 
 * Specify `NVMEOF-RDMA` FlashArray SAN type in [values.yaml](../pure-pso/values.yaml) to enable the feature, e.g.
 ```
-flassharray:
+flasharray:
     sanType: NVMEOF-RDMA
 ```
 * Follow our [installation guide](../pure-pso/README.md) to install PSO.
